@@ -1,0 +1,34 @@
+# Qt build directories
+build/
+build-*/
+debug/
+release/
+
+# Qt Creator user files
+*.pro.user
+*.pro.user.*
+*.qmlc
+*.jsc
+
+# MOC / объектные файлы
+moc_*.cpp
+moc_*.h
+*.o
+*.obj
+qrc_*.cpp
+
+# Исполняемые файлы
+*.exe
+*.app
+*.dSYM/
+
+# Временные файлы
+history.txt
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
